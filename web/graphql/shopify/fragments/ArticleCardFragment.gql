@@ -1,0 +1,11 @@
+fragment ArticleCardFragment on Article {
+  title
+  handle
+  publishedAt
+  image {
+    originalSrc
+  }
+  blog {
+    handle
+  }
+}

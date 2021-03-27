@@ -1,0 +1,62 @@
+{
+  "general": {
+    "a11y": {
+      "close_drawer": "Close drawer",
+      "decrement": "Decrement",
+      "increment": "Increment"
+    },
+    "states": {
+      "loading": "Loading"
+    }
+  },
+  "header": {
+    "a11y": {
+      "toggle_menu_drawer": "Toggle menu drawer"
+    }
+  },
+  "collections": {
+    "general": {
+      "featured": "Featured Collection"
+    },
+    "pagination": {
+      "load_more": "Load more"
+    }
+  },
+  "products": {
+    "general": {
+      "description": "Description"
+    },
+    "form": {
+      "add_to_cart": "Add to cart",
+      "adding_to_cart": "Adding",
+      "quantity": "Quantity"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Cart",
+      "empty": "Your cart is empty.",
+      "total": "Total",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "shipping_taxes": "Shipping, taxes, and discounts calculated at checkout.",
+      "view_cart": "View Cart",
+      "checkout": "Checkout Securely"
+    },
+    "line_item": {
+      "remove": "Remove",
+      "removing": "Removing"
+    }
+  },
+  "checkout": {
+    "general": {
+      "title": "Checkout",
+      "redirecting": "Redirecting you to checkout"
+    }
+  },
+  "blogs": {
+    "pagination": {
+      "load_more": "Load more"
+    }
+  }
+}

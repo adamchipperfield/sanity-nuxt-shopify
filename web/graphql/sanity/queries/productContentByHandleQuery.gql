@@ -1,0 +1,20 @@
+#import "@/graphql/sanity/fragments/ImageBannerFragment.gql"
+
+query productContentByHandleQuery($handle: String!) {
+  allProduct(
+    where: { handle: { current: { eq: $handle } } }
+    limit: 1
+  ) {
+    heading
+    description: descriptionRaw
+    images {
+      alt
+      asset {
+        url
+      }
+    }
+    sections {
+      ...ImageBannerFragment
+    }
+  }
+}

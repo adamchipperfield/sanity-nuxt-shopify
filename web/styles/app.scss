@@ -1,0 +1,25 @@
+/**
+ * Styles / App
+ * -----------------------------------------------------------------------------
+ * Entry file for the application styles.
+ */
+
+/**
+ * Base.
+ */
+@import '@/styles/base/reset';
+@import '@/styles/base/forms';
+@import '@/styles/base/grid';
+@import '@/styles/base/icons';
+@import '@/styles/base/layout';
+@import '@/styles/base/typography';
+
+/**
+ * Vendors.
+ */
+@import '@/styles/vendors/lazysizes';
+ 
+/**
+ * Helpers.
+ */
+@import '@/styles/helpers/display';

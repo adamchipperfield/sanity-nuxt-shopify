@@ -1,0 +1,13 @@
+fragment ImageBannerFragment on ImageBanner {
+  heading
+  image {
+    alt
+    asset {
+      url
+    }
+  }
+  button {
+    label
+    url
+  }
+}

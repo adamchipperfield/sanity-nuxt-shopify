@@ -1,0 +1,4 @@
+fragment CollectionFragment on Collection {
+  title
+  descriptionHtml
+}

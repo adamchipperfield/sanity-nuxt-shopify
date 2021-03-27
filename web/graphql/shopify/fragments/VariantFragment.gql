@@ -1,0 +1,26 @@
+fragment VariantFragment on ProductVariant {
+  id
+  title
+  presentmentPrices(first: 10) {
+    edges {
+      node {
+        price {
+          currencyCode
+          amount
+        }
+      }
+    }
+  }
+  selectedOptions {
+    name
+    value
+  }
+  product {
+    title
+    handle
+  }
+  image {
+    originalSrc
+    altText
+  }
+}

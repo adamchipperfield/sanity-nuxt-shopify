@@ -1,0 +1,14 @@
+#import "@/graphql/sanity/fragments/ImageBannerFragment.gql"
+#import "@/graphql/sanity/fragments/FeaturedCollectionFragment.gql"
+
+query landingPageByHandleQuery($handle: String!) {
+  allLandingPage(
+    where: { handle: { current: { eq: $handle } } }
+    limit: 1
+  ) {
+    sections {
+      ...ImageBannerFragment
+      ...FeaturedCollectionFragment
+    }
+  }
+}

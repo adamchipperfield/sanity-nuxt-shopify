@@ -1,0 +1,13 @@
+query collectionContentByHandleQuery(
+  $handle: String!
+) {
+  allCollection(
+    where: { handle: { current: { eq: $handle } } }
+    limit: 1
+  ) {
+    heading {
+      engb
+    }
+    description: descriptionRaw
+  }
+}
